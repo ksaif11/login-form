@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <h2 className="text-3xl flex items-center justify-center font-extrabold underline
+      ">Log-in Form</h2>
+      <body className={`${inter.className} bg-white`}>{children}</body>
     </html>
   );
 }
